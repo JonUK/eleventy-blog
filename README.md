@@ -9,6 +9,9 @@ The following article accompanies this repo.
 A demo of the blog is hosted on Netlify:  
 [https://dazzling-almeida-ca0492.netlify.com/](https://dazzling-almeida-ca0492.netlify.com/)
 
+## Branches
+This repo contains several branches that allow you to checkout the code at various stages of development.
+
 ## How do I run the site?
 ```
 npm install
