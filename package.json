@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "An example blog site using Eleventy that covers fundamental functionality",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",

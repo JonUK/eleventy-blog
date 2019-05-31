@@ -1,7 +1,7 @@
 # Top-most EditorConfig file
 root = true
 
-[*.{md,js,json,html}]
+[*]
 end_of_line = crlf
 charset = utf-8
 indent_style = space
