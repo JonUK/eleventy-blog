@@ -11,3 +11,5 @@ This is the first post on my blog.
 <!-- Excerpt End -->
  
 Eleventy is super fresh init.
+
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
