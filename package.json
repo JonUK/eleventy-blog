@@ -1,0 +1,21 @@
+{
+  "name": "eleventy-blog",
+  "version": "1.0.0",
+  "description": "An example blog site using Eleventy that covers fundamental functionality",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonUK/eleventy-blog.git"
+  },
+  "author": "Jon Keeping",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonUK/eleventy-blog/issues"
+  },
+  "homepage": "https://github.com/JonUK/eleventy-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}
