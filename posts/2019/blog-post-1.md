@@ -15,6 +15,6 @@ Eleventy is super fresh init.
 
 ## Want your own blog?
 The code for this blog is available on GitHub:
-https://github.com/JonUK/eleventy-blog
+[https://github.com/JonUK/eleventy-blog](https://github.com/JonUK/eleventy-blog)
 
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
