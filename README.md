@@ -6,7 +6,8 @@ The following article accompanies this repo.
 ## Creating A Blog With Eleventy
 https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
 
-![alt text](https://keepinguptodate.com/pages/2019/06/01-homepage.png "How the blog site looks")
+A demo of the blog is hosted on Netlify:  
+[https://dazzling-almeida-ca0492.netlify.com/](https://dazzling-almeida-ca0492.netlify.com/)
 
 ## How do I run the site?
 ```
