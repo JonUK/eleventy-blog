@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  padding-top: 10px;
+  padding: 10px 8px;
   font-size: 19px;
   font-family: 'Roboto', sans-serif;
 }
@@ -50,6 +50,7 @@ header > a:hover {
 
 main {
   padding: 5px 16px;
+  word-wrap:break-word;
 }
 
 footer {
@@ -94,4 +95,9 @@ a:hover {
 
 time {
   color: #666666;
+}
+
+article img {
+  width: 100%;
+  height: auto;
 }

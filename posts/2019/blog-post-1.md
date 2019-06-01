@@ -17,4 +17,4 @@ Eleventy is super fresh init.
 The code for this blog is available on GitHub:
 [https://github.com/JonUK/eleventy-blog](https://github.com/JonUK/eleventy-blog)
 
-<img src="https://octodex.github.com/images/stormtroopocat.jpg" style="width: 100%; height: auto">
+<img src="https://octodex.github.com/images/stormtroopocat.jpg">
