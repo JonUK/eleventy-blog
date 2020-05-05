@@ -35,7 +35,10 @@ function extractExcerpt(article) {
 
   separatorsList.some(separators => {
     const startPosition = content.indexOf(separators.start);
-    const endPosition = content.lastIndexOf(separators.end);
+
+    // This end position could use "lastIndexOf" to return all the paragraphs rather than just the first
+    // paragraph when matching is on "<p>" and "</p>".
+    const endPosition = content.indexOf(separators.end);
 
     if (startPosition !== -1 && endPosition !== -1) {
       excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
