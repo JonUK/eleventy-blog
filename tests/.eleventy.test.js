@@ -13,11 +13,13 @@ beforeAll(() => {
 describe('dateReadable filter', () => {
 
   it.each([
-    ['2020-01-01', 'January 1, 2020'],
-    ['2020-02-01', 'February 1, 2020'],
-    ['2020-01-02', 'January 2, 2020'],
-    ['2020-10-10', 'October 10, 2020'],
-    ['2020-12-12', 'December 12, 2020'],
+    ['2019-06-01T00:00:00.000Z', 'June 1, 2019'],
+    ['2019-06-02T00:00:00.000Z', 'June 2, 2019'],
+    ['2019-07-01T00:00:00.000Z', 'July 1, 2019'],
+    ['2020-01-01T00:00:00.000Z', 'January 1, 2020'],
+    ['2020-01-01T01:00:00.000Z', 'January 1, 2020'],
+    ['2020-01-01T23:59:59.000Z', 'January 1, 2020'],
+    ['2020-12-31T23:59:59.000Z', 'December 31, 2020']
   ])('can parse %s to %s', (inputString, expected) => {
     const outputDateString = dateReadableFunc(inputString);
     expect(outputDateString).toEqual(expected);
