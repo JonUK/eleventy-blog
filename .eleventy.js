@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('LL'); // E.g. May 31, 2019
+    return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
