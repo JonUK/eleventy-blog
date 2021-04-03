@@ -1,6 +1,6 @@
 {
   "name": "eleventy-blog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An example blog site using Eleventy that covers fundamental functionality",
   "scripts": {
     "build": "npx eleventy",
@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/JonUK/eleventy-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "jest": "^26.0.1",
-    "moment": "^2.24.0"
+    "@11ty/eleventy": "^0.12.1",
+    "jest": "^26.6.3",
+    "moment": "^2.29.1"
   },
   "dependencies": {
     "@jest/globals": "latest"
